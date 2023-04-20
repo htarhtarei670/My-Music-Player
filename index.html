@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music PlayList</title>
+
+    <!-- google icon link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- css link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <i id="more" class="material-icons">expand_more</i>
+            <span>Now Playing</span>
+            <i class="material-icons">more_horiz</i>
+        </div>
+
+        <div class="music-detail-wrap">
+            <img src="" class="albumn-cover">
+
+            <div class="music-detail">
+                <h3 class="music-name"></h3>
+                <p class="music-artist"></p>
+            </div>
+        </div>
+
+        <div class="progress-area">
+            <div class="progress-bar">
+                <audio class="main-audio" src=""></audio>
+            </div>
+            <div class="song-timer">
+                <span class="current-time">0:00</span>
+                <span class="max-duration">0:00</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <i id="repeat" class="material-icons" title="Playlist looped">repeat</i>
+            <i id="prev" class="material-icons">skip_previous</i>
+            <div class="play-pause">
+                <i class="material-icons play">play_arrow</i>
+            </div>
+            <i id="next" class="material-icons">skip_next</i>
+            <i id="more-music" class="material-icons">queue_music</i>
+        </div>
+
+        <div class="music-list ">
+            <div class="music-box-header ">
+                <div class="row ">
+                    <i class="list material-icons ">queue_music</i>
+                    <span>Music list</span>
+                </div>
+                <i id="" class="material-icons close">close</i>
+            </div>
+            <ul class="music">
+
+
+            </ul>
+        </div>
+    </div>
+</body>
+<!-- to join musiclist js -->
+<script src="musicList.js "></script>
+
+<!-- to join main script js -->
+<script src="script.js "></script>
+
+</html>
